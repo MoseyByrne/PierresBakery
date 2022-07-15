@@ -5,7 +5,7 @@ namespace Bakery.Models
  public class Bread
  {
 
-   public int Order {get; set;}
+   public int Order { get; set; }
 
    public Bread(int order)
    {
@@ -25,8 +25,19 @@ namespace Bakery.Models
       {
         breadCost += 5;
       }
+      
     }
     return breadCost;
+   }
+
+   public int SproutedCost()
+   {
+    int sproutedCost = 0;
+    for (int i = 1; i <= Order; i++)
+    {
+      sproutedCost += 6;
+    }
+    return sproutedCost;
    }
  }
 }
