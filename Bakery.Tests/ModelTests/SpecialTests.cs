@@ -27,4 +27,4 @@ namespace Bakery.Tests
       Assert.AreEqual(specialCost, newSpecial.SpecialCost());
     }
   }
-  }
+}
