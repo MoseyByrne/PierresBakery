@@ -19,11 +19,11 @@ namespace Bakery.Models
     {
       if (i % 3 == 0)
       {
-         pastryCost += 0;
+         pastryCost += 1;
       }
       else
       {
-         pastryCost += 5;
+         pastryCost += 2;
       }
     }
     return pastryCost;
