@@ -62,7 +62,7 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void BreaCost_CostOfTwoLoaves_Int()
+    public void BreadCost_CostOfTwoLoaves_Int()
     {
       int sproutedResponse = 2;
       int sproutedCost = 12;
